@@ -1,0 +1,5 @@
+Builder Design Pattern:
+
+The Builder Design Pattern is a creational pattern that's useful when you need to create complex objects with many optional
+parameters. It allows you to construct objects step by step, providing a clear and readable way to create objects with various
+configurations.
