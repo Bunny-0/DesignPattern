@@ -1,0 +1,12 @@
+Singleton Design Pattern :
+The Singleton design pattern ensures that a class has only one instance and provides a global point of access to that instance.
+
+Private Constructor: The constructor of the Singleton class is made private to prevent instantiation of the class from outside.
+This ensures that the class cannot be instantiated using the new keyword from other classes.
+
+Static getInstance() Method: The getInstance() method provides a global point of access to the single instance of the class.
+ It's a static method that returns the single instance of the Singleton class. If the instance doesn't exist yet,
+ it creates one (lazy initialization) and returns it.
+
+Static Instance Variable: The class contains a private static variable instance to hold the single instance of the class.
+It is initialized with null initially and gets assigned the instance of the class when getInstance() is called for the first time.
