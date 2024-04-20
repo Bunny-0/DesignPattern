@@ -1,0 +1,16 @@
+Factory Design Pattern :
+
+--> it helps in creating objects without specifying the exact class of object that will be created.
+--> Instead, the Factory Design Pattern delegates the responsibility of determining which class to instantiate to a separate
+factory class.
+
+Here's a breakdown of the key components:
+
+Superclass or Interface:
+    This is the common interface or superclass that all the products (objects) will implement or extend.
+Concrete Implementations:
+    These are the various concrete classes that implement or extend the superclass or interface.
+Factory:
+    This is the class responsible for creating instances of the concrete classes. It contains a method or methods for creating objects based on certain conditions or parameters.
+Client:
+    This is the class that uses the factory to create objects.
